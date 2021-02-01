@@ -1,4 +1,5 @@
 #Write a Python program to find whether a given string starts with a given character using Lambda.
+from Práctica.Ej8PrácticaW3s import mostrarFechaYHoraAct
 
 def obtenerCadena():
     while True:
@@ -8,7 +9,6 @@ def obtenerCadena():
         except TypeError:
             print("Debe ingresarse una cadena, reintente... ")
     return cadena
-
         
 def __main__():
     cadena=obtenerCadena()
@@ -18,6 +18,8 @@ def __main__():
         print("La cadena empieza con P.")
     else:
         print("La cadena no empieza con P.")
+
+    print(mostrarFechaYHoraAct())
 
 if __name__=="__main__":
     __main__()
